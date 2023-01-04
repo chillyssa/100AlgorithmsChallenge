@@ -4,7 +4,7 @@ export function addBorder(picture: string[]): string[] {
     
     // add beg/end border to array 
     picture.push(border); 
-    picture.unshift(border); 
+    picture.unshift(border);  
 
     // add border to strings within the array 
     for(let i=1; i<picture.length-1; i++){

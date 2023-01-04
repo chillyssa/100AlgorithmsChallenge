@@ -7,7 +7,7 @@ export function addTwoDigits(n: any): number{
     
     // for each element in the array add the elements to the sum 
     nums.forEach(num=>{
-        sum += parseInt(num);
+        sum += parseInt(num); 
     })
 
     // return the summed total of each digit in the given parameter.  

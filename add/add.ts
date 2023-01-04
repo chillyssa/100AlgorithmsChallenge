@@ -7,7 +7,7 @@ export function add2(...param1: number[]): number {
     param1.forEach(param => {
         sum+= param
     }); 
-    return sum; 
+    return sum;  
 }
 // console.log(add(1, 2));
 // console.log(add(3, 2));
